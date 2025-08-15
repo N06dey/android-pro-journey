@@ -1,4 +1,4 @@
-package com.example.basic_ci
+package com.example.basisCi
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.basic_ci
+package com.example.basisCi
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
-import com.example.basic_ci.ui.theme.Basic_CiTheme
+import com.example.basisCi.ui.theme.BasicCiTheme
 import com.example.basics_ci.ui.screens.HomePage
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Basic_CiTheme {
+            BasicCiTheme {
                 HomePage(modifier = Modifier.fillMaxSize())
             }
         }

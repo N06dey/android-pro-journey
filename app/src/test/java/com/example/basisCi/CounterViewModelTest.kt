@@ -1,4 +1,4 @@
-package com.example.basic_ci
+package com.example.basisCi
 
 import app.cash.turbine.test
 import com.example.basics_ci.ui.di.TimeProvider

@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.basic_ci"
+    namespace = "com.example.basisCi"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.basic_ci"
+        applicationId = "com.example.basisCi"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

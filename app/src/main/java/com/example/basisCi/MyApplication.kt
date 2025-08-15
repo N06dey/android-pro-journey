@@ -1,8 +1,9 @@
-package com.example.basic_ci
+package com.example.basisCi
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
+@Suppress("EmptyClassBlock")
 class MyApplication: Application(){
 }

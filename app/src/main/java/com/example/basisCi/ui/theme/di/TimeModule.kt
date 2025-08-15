@@ -7,6 +7,7 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Inject
 import javax.inject.Singleton
 
+@Suppress("UnusedPrivateProperty")
 interface TimeProvider { fun now(): Long }
 
 class SystemTimeProvider @Inject constructor() : TimeProvider {

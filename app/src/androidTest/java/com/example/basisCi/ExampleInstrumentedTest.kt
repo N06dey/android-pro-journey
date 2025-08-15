@@ -1,4 +1,4 @@
-package com.example.basic_ci
+package com.example.basisCi
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
