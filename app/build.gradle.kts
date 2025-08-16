@@ -80,7 +80,7 @@ ktlint {
     android.set(true)
     ignoreFailures.set(false)
     reporters { reporter(org.jlleitschuh.gradle.ktlint.reporter.ReporterType.PLAIN) }
-    filter { exclude("/build/") }
+    filter { exclude("/build/","/src/androidTest/") }
 }
 
 detekt {
