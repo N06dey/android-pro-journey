@@ -1,4 +1,4 @@
-package com.example.basics_ci.ui.di
+package com.example.basisCi.ui.theme.di
 
 import dagger.Binds
 import dagger.Module
@@ -15,6 +15,7 @@ class SystemTimeProvider @Inject constructor() : TimeProvider {
 }
 
 @Module
+@Suppress("UnusedPrivateProperty")
 @InstallIn(SingletonComponent::class)
 abstract class TimeModule {
     @Binds

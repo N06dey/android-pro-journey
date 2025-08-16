@@ -1,8 +1,8 @@
 package com.example.basisCi
 
 import app.cash.turbine.test
-import com.example.basics_ci.ui.di.TimeProvider
-import com.example.basics_ci.ui.viewModels.HomePageViewModel
+import com.example.basisCi.ui.theme.di.TimeProvider
+import com.example.basisCi.ui.theme.viewModels.HomePageViewModel
 import junit.framework.TestCase.assertEquals
 import kotlinx.coroutines.test.runTest
 import org.junit.Test

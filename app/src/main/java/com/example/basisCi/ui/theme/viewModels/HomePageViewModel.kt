@@ -1,7 +1,7 @@
-package com.example.basics_ci.ui.viewModels
+package com.example.basisCi.ui.theme.viewModels
 
 import androidx.lifecycle.ViewModel
-import com.example.basics_ci.ui.di.TimeProvider
+import com.example.basisCi.ui.theme.di.TimeProvider
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -16,6 +16,7 @@ class HomePageViewModel @Inject constructor(private val timeProvider: TimeProvid
     val ans: StateFlow<Int> = _x.asStateFlow()
 
     fun inc(){
+        val ts = timeProvider.now()
         _x.update { it+1 }
     }
 

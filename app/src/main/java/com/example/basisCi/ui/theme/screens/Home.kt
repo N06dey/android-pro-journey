@@ -1,4 +1,4 @@
-package com.example.basics_ci.ui.screens
+package com.example.basisCi.ui.theme.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -20,7 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.basics_ci.ui.viewModels.HomePageViewModel
+import com.example.basisCi.ui.theme.viewModels.HomePageViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

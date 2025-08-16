@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
 import com.example.basisCi.ui.theme.BasicCiTheme
-import com.example.basics_ci.ui.screens.HomePage
+import com.example.basisCi.ui.theme.screens.HomePage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
